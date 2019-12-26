@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
-    <bean id="vehicle" class="com.navin.Telusko.Car"></bean>
+    <bean id="vehicle" class="com.navin.Telusko.Bike"></bean>
 </beans>
