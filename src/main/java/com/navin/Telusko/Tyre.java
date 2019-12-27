@@ -1,11 +1,14 @@
 package com.navin.Telusko;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
 	private String brand;
 	
-	public Tyre(String brand) {
-		this.brand = brand;
-	}
+//	public Tyre(String brand) {
+//		this.brand = brand;
+//	}
 	public String getBrand() {
 		return brand;
 	}
@@ -16,9 +19,7 @@ public class Tyre {
 
 	@Override
 	public String toString() {
-		return "Tyre [brand=" + brand + "]";
+		return "A tyre";
+//		return "Tyre [brand=" + brand + "]";
 	}
-	
-	
-	
 }
